@@ -1,0 +1,28 @@
+comandos git
+
+git init -> cria um repositorio
+
+git add 'arquivo' -> adiciona arquivos nao monitorados ou editados na staged area
+
+git commit 'arquivo' -> salva no repositorio os arquivos da staged area
+
+git diff -> ve as edições realizadas nos arquivos entre o local de trabalho e a staged area
+
+git diff --staged -> ve as edições realizadas nos arquivos entre a staged area e o repositorio
+
+git log -> lista todos os commits do projeto (-p ordena decrescente e adiciona função do comando 			diff; -(numero de commits) limita o numero de commits a aparecer)
+git log --pretty=oneline -> mostra apenas a chave do commit e os comentarios.
+
+git commit --amend -m "nome do ultimo commit (edição)" -> altera o ultimo commit ao invez de criar um novo.
+
+git reset HEAD nomedoarquivo -> retira o arquivo da stage area
+
+git checkout -- nomearquivo -> remove alterações de arquivos que ainda nao estão na staged area.
+
+git rm nomedoarquivo -> remove da working area arquivos deletados
+
+git clone git@github.com:justrenato/projetonumerosaleatorios.git -> puxa para o pc os arquivos desse projeto
+
+git push origin master -> apos o commit esse comando é necessario para upar online os projetos
+
+git pull origin master -> atualiza na pasta local os arquivos que estão upados online
