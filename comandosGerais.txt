@@ -1,0 +1,13 @@
+wc -> mostra quantas linhas, bytes, characteres um arquivo tem
+less -> organiza na tela uma saida.
+last ~> ultimas pessoas a logarem no sistema
+cut -c1-8 ~> recortar caracteres de 1 a 8
+sort ~> ordena (-n numericamente)
+uniq -c ~> junta repetições na mesma linha (-c conta as repetiçoes)
+tail -10 ~> ultimas dez linhas de um arquivo
+head -10 ~> seleciona as 10 linhas iniciais do fluxo de dados
+grep palavra ~> pega as linhas com tal palavra 
+cut -d, -f5 ~> separa o arquivo em campos delimitados por virgula, e mostra o campo 5
+more ~> permite a paginação do fluxo de dados
+tr ~> troca de caracteres entre dois conjuntos
+
