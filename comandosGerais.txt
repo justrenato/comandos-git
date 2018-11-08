@@ -10,4 +10,4 @@ grep palavra ~> pega as linhas com tal palavra
 cut -d, -f5 ~> separa o arquivo em campos delimitados por virgula, e mostra o campo 5
 more ~> permite a paginação do fluxo de dados
 tr ~> troca de caracteres entre dois conjuntos
-
+objdump -S -g arquivo.c ~> traduz para assembly o arquivo, -g faz com que mostre qual linha esta sendo traduzida no momento
